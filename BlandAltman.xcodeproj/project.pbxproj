@@ -10,17 +10,17 @@
 		8420023212E829A200E1E9CE /* OsiriXAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8420023112E829A200E1E9CE /* OsiriXAPI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
-		ABA48A650680BB600089EB4F /* PluginTemplateFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA48A640680BB600089EB4F /* PluginTemplateFilter.h */; };
-		ABA48A670680BB690089EB4F /* PluginTemplateFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA48A660680BB690089EB4F /* PluginTemplateFilter.m */; };
 		F58205001DDCB3E800BCC3CA /* CorePlot.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F58204F01DDCB3AD00BCC3CA /* CorePlot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F58205011DDCB40200BCC3CA /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58204F01DDCB3AD00BCC3CA /* CorePlot.framework */; };
-		F58205061DDCB53900BCC3CA /* PluginTemplate_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F58205051DDCB53900BCC3CA /* PluginTemplate_Prefix.pch */; };
+		F58205061DDCB53900BCC3CA /* BlandAltman_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F58205051DDCB53900BCC3CA /* BlandAltman_Prefix.pch */; };
 		F58205281DDCBA4A00BCC3CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58205271DDCBA4A00BCC3CA /* QuartzCore.framework */; };
 		F58205381DDCBEB300BCC3CA /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58205371DDCBEB300BCC3CA /* CorePlot.framework */; };
 		F582CF941DE2FAB300725ABA /* PlotWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F582CF931DE2FAB300725ABA /* PlotWindow.xib */; };
 		F582CF9A1DE2FF1400725ABA /* PlotViewerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F582CF981DE2FF1400725ABA /* PlotViewerController.h */; };
 		F582CF9B1DE2FF1400725ABA /* PlotViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F582CF991DE2FF1400725ABA /* PlotViewerController.m */; };
 		F582CF9D1DE30A9400725ABA /* PlotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F582CF9C1DE30A9400725ABA /* PlotView.xib */; };
+		F582CFA11DE336A500725ABA /* BlandAltmanFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F582CF9F1DE336A500725ABA /* BlandAltmanFilter.h */; };
+		F582CFA21DE336A500725ABA /* BlandAltmanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F582CFA01DE336A500725ABA /* BlandAltmanFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,18 +102,18 @@
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		8420023112E829A200E1E9CE /* OsiriXAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OsiriXAPI.framework; sourceTree = "<group>"; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB5D36050680E57E00F4007A /* PluginTemplate.osirixplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginTemplate.osirixplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA48A640680BB600089EB4F /* PluginTemplateFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PluginTemplateFilter.h; sourceTree = "<group>"; };
-		ABA48A660680BB690089EB4F /* PluginTemplateFilter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PluginTemplateFilter.m; sourceTree = "<group>"; };
+		AB5D36050680E57E00F4007A /* BlandAltman.osirixplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlandAltman.osirixplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58204DF1DDCB3AD00BCC3CA /* CorePlot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CorePlot.xcodeproj; path = "../core-plot/framework/CorePlot.xcodeproj"; sourceTree = "<group>"; };
 		F58205031DDCB4F100BCC3CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		F58205051DDCB53900BCC3CA /* PluginTemplate_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginTemplate_Prefix.pch; sourceTree = "<group>"; };
+		F58205051DDCB53900BCC3CA /* BlandAltman_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlandAltman_Prefix.pch; sourceTree = "<group>"; };
 		F58205271DDCBA4A00BCC3CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F58205371DDCBEB300BCC3CA /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "../core-plot/build/Debug/CorePlot.framework"; sourceTree = "<group>"; };
 		F582CF931DE2FAB300725ABA /* PlotWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlotWindow.xib; sourceTree = "<group>"; };
 		F582CF981DE2FF1400725ABA /* PlotViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotViewerController.h; sourceTree = "<group>"; };
 		F582CF991DE2FF1400725ABA /* PlotViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotViewerController.m; sourceTree = "<group>"; };
 		F582CF9C1DE30A9400725ABA /* PlotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlotView.xib; sourceTree = "<group>"; };
+		F582CF9F1DE336A500725ABA /* BlandAltmanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlandAltmanFilter.h; sourceTree = "<group>"; };
+		F582CFA01DE336A500725ABA /* BlandAltmanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlandAltmanFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,10 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AB2C26750677B0C400A08910 /* PluginTemplateFilter */,
+				F582CF9F1DE336A500725ABA /* BlandAltmanFilter.h */,
+				F582CFA01DE336A500725ABA /* BlandAltmanFilter.m */,
+				F582CF981DE2FF1400725ABA /* PlotViewerController.h */,
+				F582CF991DE2FF1400725ABA /* PlotViewerController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -198,7 +201,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB5D36050680E57E00F4007A /* PluginTemplate.osirixplugin */,
+				AB5D36050680E57E00F4007A /* BlandAltman.osirixplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,20 +209,9 @@
 		32C88E010371C26100C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F58205051DDCB53900BCC3CA /* PluginTemplate_Prefix.pch */,
+				F58205051DDCB53900BCC3CA /* BlandAltman_Prefix.pch */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		AB2C26750677B0C400A08910 /* PluginTemplateFilter */ = {
-			isa = PBXGroup;
-			children = (
-				ABA48A640680BB600089EB4F /* PluginTemplateFilter.h */,
-				ABA48A660680BB690089EB4F /* PluginTemplateFilter.m */,
-				F582CF981DE2FF1400725ABA /* PlotViewerController.h */,
-				F582CF991DE2FF1400725ABA /* PlotViewerController.m */,
-			);
-			name = PluginTemplateFilter;
 			sourceTree = "<group>";
 		};
 		F58204E01DDCB3AD00BCC3CA /* Products */ = {
@@ -252,17 +244,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F582CF9A1DE2FF1400725ABA /* PlotViewerController.h in Headers */,
-				ABA48A650680BB600089EB4F /* PluginTemplateFilter.h in Headers */,
-				F58205061DDCB53900BCC3CA /* PluginTemplate_Prefix.pch in Headers */,
+				F582CFA11DE336A500725ABA /* BlandAltmanFilter.h in Headers */,
+				F58205061DDCB53900BCC3CA /* BlandAltman_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* PluginTemplate */ = {
+		8D5B49AC048680CD000E48DA /* BlandAltman */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "PluginTemplate" */;
+			buildConfigurationList = CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "BlandAltman" */;
 			buildPhases = (
 				8D5B49AD048680CD000E48DA /* Headers */,
 				8D5B49AF048680CD000E48DA /* Resources */,
@@ -275,10 +267,10 @@
 			);
 			dependencies = (
 			);
-			name = PluginTemplate;
+			name = BlandAltman;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = Invert;
-			productReference = AB5D36050680E57E00F4007A /* PluginTemplate.osirixplugin */;
+			productReference = AB5D36050680E57E00F4007A /* BlandAltman.osirixplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -288,7 +280,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "PluginTemplate" */;
+			buildConfigurationList = CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "BlandAltman" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -308,7 +300,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* PluginTemplate */,
+				8D5B49AC048680CD000E48DA /* BlandAltman */,
 			);
 		};
 /* End PBXProject section */
@@ -401,7 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F582CF9B1DE2FF1400725ABA /* PlotViewerController.m in Sources */,
-				ABA48A670680BB690089EB4F /* PluginTemplateFilter.m in Sources */,
+				F582CFA21DE336A500725ABA /* BlandAltmanFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +430,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = PluginTemplate_Prefix.pch;
+				GCC_PREFIX_HEADER = BlandAltman_Prefix.pch;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = "";
@@ -454,7 +446,7 @@
 					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = PluginTemplate;
+				PRODUCT_NAME = BlandAltman;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -481,7 +473,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = PluginTemplate_Prefix.pch;
+				GCC_PREFIX_HEADER = BlandAltman_Prefix.pch;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				HEADER_SEARCH_PATHS = "";
@@ -497,7 +489,7 @@
 					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = PluginTemplate;
+				PRODUCT_NAME = BlandAltman;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -530,7 +522,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "PluginTemplate" */ = {
+		CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "BlandAltman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6A9A9108AC841300D0C1EE /* Development */,
@@ -539,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "PluginTemplate" */ = {
+		CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "BlandAltman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6A9A9508AC841300D0C1EE /* Development */,

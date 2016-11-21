@@ -5,9 +5,9 @@
 //  Copyright (c) CURRENT_YEAR YOUR_NAME. All rights reserved.
 //
 
-#import "PluginTemplateFilter.h"
+#import "BlandAltmanFilter.h"
 
-@interface PluginTemplateFilter()
+@interface BlandAltmanFilter()
 
 @property (strong) IBOutlet NSView *plotView;
 @property (nonatomic, strong) NSWindowController *PlotWindow;
@@ -15,7 +15,7 @@
 
 @end
 
-@implementation PluginTemplateFilter
+@implementation BlandAltmanFilter
 
 - (void) initPlugin
 {
@@ -37,7 +37,7 @@
     [_PlotWindow showWindow:self];
     
     // plot mag viewer
-    _plotViewerController = [[PlotViewerController alloc] initWithNibName:@"PlotView" bundle:[NSBundle bundleForClass:[PluginTemplateFilter class]]];
+    _plotViewerController = [[PlotViewerController alloc] initWithNibName:@"PlotView" bundle:[NSBundle bundleForClass:[BlandAltmanFilter class]]];
     [_plotView addSubview:[_plotViewerController view]];
     [[_plotViewerController view] setFrame:[_plotView bounds]];
     

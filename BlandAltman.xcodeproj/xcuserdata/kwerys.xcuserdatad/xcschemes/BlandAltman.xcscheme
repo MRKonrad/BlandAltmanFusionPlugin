@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-               BuildableName = "PluginTemplate.osirixplugin"
-               BlueprintName = "PluginTemplate"
-               ReferencedContainer = "container:PluginTemplate.xcodeproj">
+               BuildableName = "BlandAltman.osirixplugin"
+               BlueprintName = "BlandAltman"
+               ReferencedContainer = "container:BlandAltman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
+            BuildableName = "PluginTemplate.osirixplugin"
+            BlueprintName = "PluginTemplate"
+            ReferencedContainer = "container:PluginTemplate.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -52,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-            BuildableName = "PluginTemplate.osirixplugin"
-            BlueprintName = "PluginTemplate"
-            ReferencedContainer = "container:PluginTemplate.xcodeproj">
+            BuildableName = "BlandAltman.osirixplugin"
+            BlueprintName = "BlandAltman"
+            ReferencedContainer = "container:BlandAltman.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -72,15 +81,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-            BuildableName = "PluginTemplate.osirixplugin"
-            BlueprintName = "PluginTemplate"
-            ReferencedContainer = "container:PluginTemplate.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Development">

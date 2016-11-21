@@ -11,7 +11,7 @@
 
 #import "PlotViewerController.h"
 
-@interface PluginTemplateFilter : PluginFilter {
+@interface BlandAltmanFilter : PluginFilter {
 }
 
 - (long) filterImage:(NSString*) menuName;
