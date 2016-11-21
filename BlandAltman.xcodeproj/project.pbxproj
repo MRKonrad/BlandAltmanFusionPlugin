@@ -21,6 +21,8 @@
 		F582CF9D1DE30A9400725ABA /* PlotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F582CF9C1DE30A9400725ABA /* PlotView.xib */; };
 		F582CFA11DE336A500725ABA /* BlandAltmanFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F582CF9F1DE336A500725ABA /* BlandAltmanFilter.h */; };
 		F582CFA21DE336A500725ABA /* BlandAltmanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F582CFA01DE336A500725ABA /* BlandAltmanFilter.m */; };
+		F5F91E301DE356B500206E32 /* BlandAltmanDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F91E2E1DE356B500206E32 /* BlandAltmanDataClass.h */; };
+		F5F91E311DE356B500206E32 /* BlandAltmanDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F91E2F1DE356B500206E32 /* BlandAltmanDataClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,8 @@
 		F582CF9C1DE30A9400725ABA /* PlotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlotView.xib; sourceTree = "<group>"; };
 		F582CF9F1DE336A500725ABA /* BlandAltmanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlandAltmanFilter.h; sourceTree = "<group>"; };
 		F582CFA01DE336A500725ABA /* BlandAltmanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlandAltmanFilter.m; sourceTree = "<group>"; };
+		F5F91E2E1DE356B500206E32 /* BlandAltmanDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlandAltmanDataClass.h; sourceTree = "<group>"; };
+		F5F91E2F1DE356B500206E32 /* BlandAltmanDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlandAltmanDataClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 				F582CFA01DE336A500725ABA /* BlandAltmanFilter.m */,
 				F582CF981DE2FF1400725ABA /* PlotViewerController.h */,
 				F582CF991DE2FF1400725ABA /* PlotViewerController.m */,
+				F5F91E2E1DE356B500206E32 /* BlandAltmanDataClass.h */,
+				F5F91E2F1DE356B500206E32 /* BlandAltmanDataClass.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 			files = (
 				F582CF9A1DE2FF1400725ABA /* PlotViewerController.h in Headers */,
 				F582CFA11DE336A500725ABA /* BlandAltmanFilter.h in Headers */,
+				F5F91E301DE356B500206E32 /* BlandAltmanDataClass.h in Headers */,
 				F58205061DDCB53900BCC3CA /* BlandAltman_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F91E311DE356B500206E32 /* BlandAltmanDataClass.m in Sources */,
 				F582CF9B1DE2FF1400725ABA /* PlotViewerController.m in Sources */,
 				F582CFA21DE336A500725ABA /* BlandAltmanFilter.m in Sources */,
 			);

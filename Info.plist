@@ -23,6 +23,6 @@
 		<string>PluginTemplate</string>
 	</array>
 	<key>pluginType</key>
-	<string>Database</string>
+	<string>fusionFilter</string>
 </dict>
 </plist>

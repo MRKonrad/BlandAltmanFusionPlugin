@@ -10,6 +10,7 @@
 #import <CorePlot/CorePlot.h>
 
 #import "PlotViewerController.h"
+#import "BlandAltmanDataClass.h"
 
 @interface BlandAltmanFilter : PluginFilter {
 }

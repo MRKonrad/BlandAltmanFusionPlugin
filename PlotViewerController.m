@@ -38,7 +38,7 @@ static NSString *const stdMinusIdentifier  = @"stdMinusLine";
     newGraph.paddingRight  = 0.0;
     newGraph.paddingBottom = 0.0;
     
-    newGraph.plotAreaFrame.paddingLeft   = 50.0;
+    newGraph.plotAreaFrame.paddingLeft   = 80.0;
     newGraph.plotAreaFrame.paddingTop    = 10.0;
     newGraph.plotAreaFrame.paddingRight  = 10.0;
     newGraph.plotAreaFrame.paddingBottom = 10.0;
@@ -53,15 +53,29 @@ static NSString *const stdMinusIdentifier  = @"stdMinusLine";
     
     // Setup scatter plot space
     self.plotSpace = (CPTXYPlotSpace *)newGraph.defaultPlotSpace;
-    self.plotSpace.xRange = [CPTPlotRange plotRangeWithLocation:@0.0 length:@1.0];
-    self.plotSpace.yRange = [CPTPlotRange plotRangeWithLocation:@(-1.0) length:@2.0];
+    //self.plotSpace.xRange = [CPTPlotRange plotRangeWithLocation:@0.0 length:@1.0];
+    //self.plotSpace.yRange = [CPTPlotRange plotRangeWithLocation:@(-1.0) length:@2.0];
+    
+    // Axes
+    CPTXYAxisSet *axisSet = (CPTXYAxisSet *)newGraph.axisSet;
+    CPTXYAxis *x          = axisSet.xAxis;
+    //x.majorIntervalLength   = @1000.0;
+    x.orthogonalPosition    = @0.0;
+    //x.minorTicksPerInterval = 0;
+    x.title = @"Average of the two measures";
+    
+    CPTXYAxis *y          = axisSet.yAxis;
+    //y.majorIntervalLength   = @25.0;
+    y.orthogonalPosition    = @0.0;
+    //y.minorTicksPerInterval = 0;
+    y.title = @"difference between the two measures";
     
     CPTMutableLineStyle *elipseLineStyle = [CPTMutableLineStyle lineStyle];
     elipseLineStyle.lineWidth              = 0.0;
     CPTPlotSymbol *elipsePlotSymbol = [CPTPlotSymbol ellipsePlotSymbol];
     elipsePlotSymbol.fill           = [CPTFill fillWithColor:[[CPTColor blueColor] colorWithAlphaComponent:0.5]];
     elipsePlotSymbol.lineStyle      = elipseLineStyle;
-    elipsePlotSymbol.size           = CGSizeMake(8.0, 8.0);
+    elipsePlotSymbol.size           = CGSizeMake(5.0, 5.0);
     
     CPTMutableLineStyle *dataLineStyle = [CPTMutableLineStyle lineStyle];
     dataLineStyle.lineWidth              = .5;
