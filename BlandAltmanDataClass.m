@@ -15,8 +15,8 @@
 @implementation BlandAltmanDataClass
 
 - (id)init{
-    NSMutableArray* data1 = [self generateRandomDataArrayWithNDataPonts:500];
-    NSMutableArray* data2 = [self generateRandomDataArrayWithNDataPonts:500];
+    NSMutableArray* data1 = [self generateRandomDataArrayWithNDataPonts:5000];
+    NSMutableArray* data2 = [self generateRandomDataArrayWithNDataPonts:5000];
     return [self initWithData1:data1 andData2:data2];
 }
 
@@ -98,7 +98,7 @@
 - (NSMutableArray *) generateRandomDataArrayWithNDataPonts: (NSInteger) NDataPonts{
     NSMutableArray *data = [NSMutableArray array];
     for ( NSInteger i = 0; i < NDataPonts; i++ ) {
-        [data addObject: [NSNumber numberWithFloat: arc4random() / (double)UINT32_MAX]];
+        [data addObject: [NSNumber numberWithFloat: 2000*(arc4random() / (double)UINT32_MAX)]];
     }
     return data;
 }

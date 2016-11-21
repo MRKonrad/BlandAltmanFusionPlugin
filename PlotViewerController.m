@@ -38,7 +38,7 @@ static NSString *const stdMinusIdentifier  = @"stdMinusLine";
     newGraph.paddingRight  = 0.0;
     newGraph.paddingBottom = 0.0;
     
-    newGraph.plotAreaFrame.paddingLeft   = 80.0;
+    newGraph.plotAreaFrame.paddingLeft   = 70.0;
     newGraph.plotAreaFrame.paddingTop    = 10.0;
     newGraph.plotAreaFrame.paddingRight  = 10.0;
     newGraph.plotAreaFrame.paddingBottom = 10.0;
@@ -46,6 +46,7 @@ static NSString *const stdMinusIdentifier  = @"stdMinusLine";
     newGraph.plotAreaFrame.borderLineStyle = nil;
     newGraph.plotAreaFrame.cornerRadius    = 0.0;
     newGraph.plotAreaFrame.masksToBorder   = NO;
+    
     
     self.graph = newGraph;
     
@@ -69,6 +70,13 @@ static NSString *const stdMinusIdentifier  = @"stdMinusLine";
     y.orthogonalPosition    = @0.0;
     //y.minorTicksPerInterval = 0;
     y.title = @"difference between the two measures";
+    y.labelOffset = 0;
+    y.titleOffset = 40;
+    
+    NSNumberFormatter *zeroFracDigFormatter = [[NSNumberFormatter alloc] init];
+    [zeroFracDigFormatter setMaximumFractionDigits:0];
+    x.labelFormatter = zeroFracDigFormatter;
+    y.labelFormatter = zeroFracDigFormatter;
     
     CPTMutableLineStyle *elipseLineStyle = [CPTMutableLineStyle lineStyle];
     elipseLineStyle.lineWidth              = 0.0;
@@ -79,7 +87,7 @@ static NSString *const stdMinusIdentifier  = @"stdMinusLine";
     
     CPTMutableLineStyle *dataLineStyle = [CPTMutableLineStyle lineStyle];
     dataLineStyle.lineWidth              = .5;
-    dataLineStyle.lineColor              = [CPTColor blueColor];
+    dataLineStyle.lineColor              = [CPTColor greenColor];
     
     /* ########################## */
     /* # Bkand Altman Scatter   # */

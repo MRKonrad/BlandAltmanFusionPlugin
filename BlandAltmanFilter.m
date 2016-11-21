@@ -40,7 +40,7 @@
     /* ########################## */
     
     // for testing purposes
-    // BlandAltmanDataClass *baData = [[BlandAltmanDataClass alloc] init];
+    //BlandAltmanDataClass *baData = [[BlandAltmanDataClass alloc] init];
     
     // viewerController data
     NSMutableArray *data1 = [self getDataFromViewerController: viewerController];
@@ -60,8 +60,8 @@
     self.plotViewerController.plotSpace.yRange = [CPTPlotRange plotRangeWithLocation:baData.locationY length:baData.lengthY];
     
     CPTXYAxisSet *axisSet = (CPTXYAxisSet *)self.plotViewerController.graph.axisSet;
-    axisSet.xAxis.majorIntervalLength = @((int)(baData.lengthX.floatValue/11));
-    axisSet.yAxis.majorIntervalLength = @((int)(baData.lengthY.floatValue/11));
+    axisSet.xAxis.majorIntervalLength = @((float)(baData.lengthX.floatValue/11));
+    axisSet.yAxis.majorIntervalLength = @((float)(baData.lengthY.floatValue/11));
     
     [self.plotViewerController.graph reloadData];
     
